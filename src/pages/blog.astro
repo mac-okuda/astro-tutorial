@@ -1,4 +1,9 @@
 ---
+
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../assets/global.css';
+
 ---
 <html lang="ja">
   <head>
@@ -18,5 +23,9 @@
      <li><a href="/posts/post-2/">記事2</a></li>
       <li><a href="/posts/post-3/">記事3</a></li>
     </ul>
+    <Footer />
+    <script>
+    import "../scripts/menu.js";
+    </script>
   </body>
 </html>
